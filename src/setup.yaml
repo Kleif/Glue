@@ -1,0 +1,3 @@
+date_input:  "%d/%m/%Y"
+date_output: "%A, %d. %B %Y"
+markdown_extensions: ['codehilite', 'extra']
