@@ -1,4 +1,6 @@
 
+<div class="wikistyle" width="800">
+
 Much like Github's [Jekyll][], Glue is a [Python][] script that generates websites  
 based on templates, a content folder and a configuration file. However, Glue makes  
 some interesting and different design decissions and it's much simpler. 
@@ -351,3 +353,4 @@ rss feeds, or fork the source code and modify it to suit your needs.
 
 Don't forget to contact me, I'm always interested to see applications of my software.
 
+</div>
