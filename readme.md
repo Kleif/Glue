@@ -12,11 +12,11 @@ at compile time. This makes it easier to create any kind of website, be it or no
 [Jekyll]: http://github.com/mojombo/jekyll
 [Python]: http://www.python.org
 
-# Installation
+Installation
+------------
 
 Glue has no 'setup.py' file and needs no installation. It's a tiny, single-file
-10kb program. To use it, just place 'glue.py' somewhere in your $PATH.
-
+10kb program. To use it, just place 'glue.py' somewhere in your $PATH.  
 It also has no command-line arguments. To execute, 'cd' to the directory where
 your website is located and invoke it:
 
@@ -28,10 +28,12 @@ your website is located and invoke it:
     Done: 14 generated files and 20 static files.
     Time: 0.54849728 seconds.
 
-# Dependencies
+Dependencies
+------------
 
 Glue has few dependencies. It's a trade-off. There is no support for Textile, Asciidoc
-or many other filters. This is by design. One library for each task and that's it.
+or many other filters.  
+This is by design. One library for each task and that's it.
 
 Required:
 
@@ -44,15 +46,18 @@ Optional:
   * [Pygments][] is needed to have syntax highlighting.
 
 It works both on Python 2.6+ and Python 3, although you will need to run it through
-'2to3.py' for it to work on the later. All the libraries also run on Python 3.
+'2to3.py' for it to work on the later.  
+All the libraries also run on Python 3.
 
 [Jinja2]:   http://pypi.python.org/pypi/Jinja2
 [Markdown]: http://pypi.python.org/pypi/Markdown
 [Pygments]: http://pypi.python.org/pypi/Pygments
 [Yaml]:     http://pypi.python.org/pypi/PyYAML
 
-# Documentation
+Documentation
+-------------
 
 Additional documentation will be written and linked here soon with detailed usage
-instructions and differences with Jekyll as well as example sites. (a blog, gallery, etc)
+instructions and differences with Jekyll as well as example sites.  
+(a blog, gallery, etc)
 
