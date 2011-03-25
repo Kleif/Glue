@@ -321,7 +321,6 @@ Syntax highlighting
 Make sure [Pygments][] is installed and the 'setup.yaml' file for  
 your site has the following property set (This is enabled by default):
 
-    ::bash
     markdown_extensions: ['codehilite', other extensions...]
 
 At '/content/css' in the bundled .zip package you will notice a bunch of 'css' files.  
@@ -335,9 +334,8 @@ Then, in a given item use it like this:
     Here is some complex code:
 
         ::Java
-        // A very complex program.
-        public static void main(String[] args) {
-            system.out.println("Hello world");
+        public static void main (String[] args) {
+          system.out.println("Hello world");
         }
 
 Conclusion
